@@ -1,0 +1,1911 @@
+{
+  "Page": "https://www.euronews.com/about",
+  "Date": "Tue Sep 25 2018 15:02:19 GMT+0200 (CEST)",
+  "Links0": {
+    "url": "https://www.euronews.com/",
+    "Status": "200"
+  },
+  "Links1": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links2": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links3": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links4": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links5": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links6": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links7": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links8": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links9": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links10": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links11": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links12": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links13": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links14": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links15": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links16": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links17": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links18": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links19": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links20": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links21": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links22": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links23": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links24": {
+    "url": "https://www.euronews.com/programs/brussels-bureau",
+    "Status": "200"
+  },
+  "Links25": {
+    "url": "https://www.euronews.com/programs/smart-regions",
+    "Status": "200"
+  },
+  "Links26": {
+    "url": "https://www.euronews.com/programs/state-of-the-union",
+    "Status": "200"
+  },
+  "Links27": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links28": {
+    "url": "https://www.euronews.com/programs/aid-zone",
+    "Status": "200"
+  },
+  "Links29": {
+    "url": "https://www.euronews.com/programs/global-japan",
+    "Status": "200"
+  },
+  "Links30": {
+    "url": "https://www.euronews.com/programs/globalconversation",
+    "Status": "200"
+  },
+  "Links31": {
+    "url": "https://www.euronews.com/programs/good-morning-europe",
+    "Status": "200"
+  },
+  "Links32": {
+    "url": "https://www.euronews.com/programs/insiders",
+    "Status": "200"
+  },
+  "Links33": {
+    "url": "https://www.euronews.com/programs/insight",
+    "Status": "200"
+  },
+  "Links34": {
+    "url": "https://www.euronews.com/programs/inspire-middle-east",
+    "Status": "200"
+  },
+  "Links35": {
+    "url": "https://www.euronews.com/programs/raw-politics",
+    "Status": "200"
+  },
+  "Links36": {
+    "url": "https://www.euronews.com/programs/view",
+    "Status": "200"
+  },
+  "Links37": {
+    "url": "https://www.euronews.com/programs/world",
+    "Status": "200"
+  },
+  "Links38": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links39": {
+    "url": "https://www.euronews.com/programs/business-planet",
+    "Status": "200"
+  },
+  "Links40": {
+    "url": "https://www.euronews.com/programs/realeconomy",
+    "Status": "200"
+  },
+  "Links41": {
+    "url": "https://www.euronews.com/programs/target",
+    "Status": "200"
+  },
+  "Links42": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links43": {
+    "url": "https://www.euronews.com/programs/adventures",
+    "Status": "200"
+  },
+  "Links44": {
+    "url": "https://www.euronews.com/programs/cinema",
+    "Status": "200"
+  },
+  "Links45": {
+    "url": "https://www.euronews.com/programs/cult",
+    "Status": "200"
+  },
+  "Links46": {
+    "url": "https://www.euronews.com/programs/europeanlens",
+    "Status": "200"
+  },
+  "Links47": {
+    "url": "https://www.euronews.com/programs/musica",
+    "Status": "200"
+  },
+  "Links48": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links49": {
+    "url": "https://www.euronews.com/programs/farnborough-airshow",
+    "Status": "200"
+  },
+  "Links50": {
+    "url": "https://www.euronews.com/programs/futuris",
+    "Status": "200"
+  },
+  "Links51": {
+    "url": "https://www.euronews.com/programs/sci-tech",
+    "Status": "200"
+  },
+  "Links52": {
+    "url": "https://www.euronews.com/programs/space",
+    "Status": "200"
+  },
+  "Links53": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links54": {
+    "url": "https://www.euronews.com/programs/focus",
+    "Status": "200"
+  },
+  "Links55": {
+    "url": "https://www.euronews.com/programs/metropolitans",
+    "Status": "200"
+  },
+  "Links56": {
+    "url": "https://www.euronews.com/programs/postcards",
+    "Status": "200"
+  },
+  "Links57": {
+    "url": "https://www.euronews.com/programs/taste",
+    "Status": "200"
+  },
+  "Links58": {
+    "url": "https://www.euronews.com/programs/wander",
+    "Status": "200"
+  },
+  "Links59": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links60": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links61": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links62": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links63": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links64": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links65": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links66": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links67": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links68": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links69": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links70": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links71": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links72": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links73": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links74": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links75": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links76": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links77": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links78": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links79": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links80": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links81": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links82": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links83": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links84": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links85": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links86": {
+    "url": "https://www.euronews.com/live",
+    "Status": "200"
+  },
+  "Links87": {
+    "url": "https://www.euronews.com/just-in",
+    "Status": "200"
+  },
+  "Links88": {
+    "url": "https://www.euronews.com/follow-us",
+    "Status": "200"
+  },
+  "Links89": {
+    "url": "https://flights.euronews.com/en-GB/flights",
+    "Status": "200"
+  },
+  "Links90": {
+    "url": "https://www.euronews.com/",
+    "Status": "200"
+  },
+  "Links91": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links92": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links93": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links94": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links95": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links96": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links97": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links98": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links99": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links100": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links101": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links102": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links103": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links104": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links105": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links106": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links107": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links108": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links109": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links110": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links111": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links112": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links113": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links114": {
+    "url": "https://www.euronews.com/programs/brussels-bureau",
+    "Status": "200"
+  },
+  "Links115": {
+    "url": "https://www.euronews.com/programs/smart-regions",
+    "Status": "200"
+  },
+  "Links116": {
+    "url": "https://www.euronews.com/programs/state-of-the-union",
+    "Status": "200"
+  },
+  "Links117": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links118": {
+    "url": "https://www.euronews.com/programs/aid-zone",
+    "Status": "200"
+  },
+  "Links119": {
+    "url": "https://www.euronews.com/programs/global-japan",
+    "Status": "200"
+  },
+  "Links120": {
+    "url": "https://www.euronews.com/programs/globalconversation",
+    "Status": "200"
+  },
+  "Links121": {
+    "url": "https://www.euronews.com/programs/good-morning-europe",
+    "Status": "200"
+  },
+  "Links122": {
+    "url": "https://www.euronews.com/programs/insiders",
+    "Status": "200"
+  },
+  "Links123": {
+    "url": "https://www.euronews.com/programs/insight",
+    "Status": "200"
+  },
+  "Links124": {
+    "url": "https://www.euronews.com/programs/inspire-middle-east",
+    "Status": "200"
+  },
+  "Links125": {
+    "url": "https://www.euronews.com/programs/raw-politics",
+    "Status": "200"
+  },
+  "Links126": {
+    "url": "https://www.euronews.com/programs/view",
+    "Status": "200"
+  },
+  "Links127": {
+    "url": "https://www.euronews.com/programs/world",
+    "Status": "200"
+  },
+  "Links128": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links129": {
+    "url": "https://www.euronews.com/programs/business-planet",
+    "Status": "200"
+  },
+  "Links130": {
+    "url": "https://www.euronews.com/programs/realeconomy",
+    "Status": "200"
+  },
+  "Links131": {
+    "url": "https://www.euronews.com/programs/target",
+    "Status": "200"
+  },
+  "Links132": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links133": {
+    "url": "https://www.euronews.com/programs/adventures",
+    "Status": "200"
+  },
+  "Links134": {
+    "url": "https://www.euronews.com/programs/cinema",
+    "Status": "200"
+  },
+  "Links135": {
+    "url": "https://www.euronews.com/programs/cult",
+    "Status": "200"
+  },
+  "Links136": {
+    "url": "https://www.euronews.com/programs/europeanlens",
+    "Status": "200"
+  },
+  "Links137": {
+    "url": "https://www.euronews.com/programs/musica",
+    "Status": "200"
+  },
+  "Links138": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links139": {
+    "url": "https://www.euronews.com/programs/farnborough-airshow",
+    "Status": "200"
+  },
+  "Links140": {
+    "url": "https://www.euronews.com/programs/futuris",
+    "Status": "200"
+  },
+  "Links141": {
+    "url": "https://www.euronews.com/programs/sci-tech",
+    "Status": "200"
+  },
+  "Links142": {
+    "url": "https://www.euronews.com/programs/space",
+    "Status": "200"
+  },
+  "Links143": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links144": {
+    "url": "https://www.euronews.com/programs/focus",
+    "Status": "200"
+  },
+  "Links145": {
+    "url": "https://www.euronews.com/programs/metropolitans",
+    "Status": "200"
+  },
+  "Links146": {
+    "url": "https://www.euronews.com/programs/postcards",
+    "Status": "200"
+  },
+  "Links147": {
+    "url": "https://www.euronews.com/programs/taste",
+    "Status": "200"
+  },
+  "Links148": {
+    "url": "https://www.euronews.com/programs/wander",
+    "Status": "200"
+  },
+  "Links149": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links150": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links151": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links152": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links153": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links154": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links155": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links156": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links157": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links158": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links159": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links160": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links161": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links162": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links163": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links164": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links165": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links166": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links167": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links168": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links169": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links170": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links171": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links172": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links173": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links174": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links175": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links176": {
+    "url": "https://www.euronews.com/live",
+    "Status": "200"
+  },
+  "Links177": {
+    "url": "https://www.euronews.com/just-in",
+    "Status": "200"
+  },
+  "Links178": {
+    "url": "https://www.euronews.com/widgets",
+    "Status": "200"
+  },
+  "Links179": {
+    "url": "https://www.euronews.com/distribution",
+    "Status": "200"
+  },
+  "Links180": {
+    "url": "https://www.euronews.com/jobs",
+    "Status": "200"
+  },
+  "Links181": {
+    "url": "https://www.euronews.com/advertising",
+    "Status": "200"
+  },
+  "Links182": {
+    "url": "https://www.euronews.com/2018/09/25/sweden-s-pm-was-ousted-in-a-no-confidence-vote-now-what-euronews-answers",
+    "Status": "200"
+  },
+  "Links183": {
+    "url": "https://www.euronews.com/news/europe/sweden",
+    "Status": "200"
+  },
+  "Links184": {
+    "url": "https://www.euronews.com/2018/09/25/sweden-s-pm-was-ousted-in-a-no-confidence-vote-now-what-euronews-answers",
+    "Status": "200"
+  },
+  "Links185": {
+    "url": "https://www.euronews.com/2018/09/25/new-zealand-pm-brings-her-baby-to-un-general-assembly",
+    "Status": "200"
+  },
+  "Links186": {
+    "url": "https://www.euronews.com/news/oceania/new-zealand",
+    "Status": "200"
+  },
+  "Links187": {
+    "url": "https://www.euronews.com/2018/09/25/new-zealand-pm-brings-her-baby-to-un-general-assembly",
+    "Status": "200"
+  },
+  "Links188": {
+    "url": "https://www.euronews.com/2018/09/25/orban-sends-thank-you-letters-to-meps-who-voted-against-article-7",
+    "Status": "200"
+  },
+  "Links189": {
+    "url": "https://www.euronews.com/news/europe/hungary",
+    "Status": "200"
+  },
+  "Links190": {
+    "url": "https://www.euronews.com/2018/09/25/orban-sends-thank-you-letters-to-meps-who-voted-against-article-7",
+    "Status": "200"
+  },
+  "Links191": {
+    "url": "https://www.euronews.com/2018/09/25/it-aliens-scientists-detect-more-mysterious-radio-signals-distant-galaxy-ncna912586",
+    "Status": "200"
+  },
+  "Links192": {
+    "url": "https://www.euronews.com/programs/world",
+    "Status": "200"
+  },
+  "Links193": {
+    "url": "https://www.euronews.com/2018/09/25/it-aliens-scientists-detect-more-mysterious-radio-signals-distant-galaxy-ncna912586",
+    "Status": "200"
+  },
+  "Links194": {
+    "url": "https://www.euronews.com/tag/news",
+    "Status": "200"
+  },
+  "Links195": {
+    "url": "https://www.euronews.com/tag/raw-politics",
+    "Status": "200"
+  },
+  "Links196": {
+    "url": "https://www.euronews.com/tag/world-news",
+    "Status": "200"
+  },
+  "Links197": {
+    "url": "https://www.euronews.com/tag/usa",
+    "Status": "200"
+  },
+  "Links198": {
+    "url": "https://www.euronews.com/tag/20-seconds",
+    "Status": "200"
+  },
+  "Links199": {
+    "url": "https://www.euronews.com/tag/no-comment",
+    "Status": "200"
+  },
+  "Links200": {
+    "url": "https://www.euronews.com/tag/drones",
+    "Status": "200"
+  },
+  "Links201": {
+    "url": "https://www.euronews.com/tag/united-kingdom",
+    "Status": "200"
+  },
+  "Links202": {
+    "url": "https://www.euronews.com/news",
+    "Status": "200"
+  },
+  "Links203": {
+    "url": "https://www.euronews.com/lifestyle",
+    "Status": "200"
+  },
+  "Links204": {
+    "url": "https://www.euronews.com/knowledge",
+    "Status": "200"
+  },
+  "Links205": {
+    "url": "https://www.euronews.com/european-affairs",
+    "Status": "200"
+  },
+  "Links206": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links207": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links208": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links209": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links210": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links211": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links212": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links213": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links214": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links215": {
+    "url": "https://www.euronews.com/live",
+    "Status": "200"
+  },
+  "Links216": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links217": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links218": {
+    "url": "https://www.euronews.com/just-in",
+    "Status": "200"
+  },
+  "Links219": {
+    "url": "https://www.euronews.com/follow-us",
+    "Status": "200"
+  },
+  "Links220": {
+    "url": "https://www.euronews.com/widgets",
+    "Status": "200"
+  },
+  "Links221": {
+    "url": "https://flights.euronews.com/en-GB/flights",
+    "Status": "200"
+  },
+  "Links222": {
+    "url": "https://www.euronews.com/about",
+    "Status": "200"
+  },
+  "Links223": {
+    "url": "https://www.euronews.com/services-ue",
+    "Status": "200"
+  },
+  "Links224": {
+    "url": "https://www.euronews.com/terms-and-conditions",
+    "Status": "200"
+  },
+  "Links225": {
+    "url": "https://www.euronews.com/cookie-policy",
+    "Status": "200"
+  },
+  "Links226": {
+    "url": "https://www.euronews.com/contact",
+    "Status": "200"
+  },
+  "Links227": {
+    "url": "https://www.euronews.com/euronews-event",
+    "Status": "200"
+  },
+  "Links228": {
+    "url": "https://www.euronews.com/distribution",
+    "Status": "200"
+  },
+  "Links229": {
+    "url": "https://www.euronews.com/advertising",
+    "Status": "200"
+  },
+  "Links230": {
+    "url": "https://www.euronews.com/jobs",
+    "Status": "200"
+  },
+  "Links231": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links232": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links233": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links234": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links235": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links236": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links237": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links238": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links239": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links240": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links241": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links242": {
+    "url": "https://www.euronews.com/widgets",
+    "Status": "200"
+  },
+  "Links243": {
+    "url": "https://flights.euronews.com/en-GB/flights",
+    "Status": "200"
+  },
+  "Links244": {
+    "url": "https://www.euronews.com/cookie-policy",
+    "Status": "200"
+  },
+  
+
+},{
+  "Page": "https://www.euronews.com/jobs",
+  "Date": "Tue Sep 25 2018 15:02:19 GMT+0200 (CEST)",
+  "Links0": {
+    "url": "https://www.euronews.com/",
+    "Status": "200"
+  },
+  "Links1": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links2": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links3": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links4": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links5": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links6": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links7": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links8": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links9": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links10": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links11": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links12": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links13": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links14": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links15": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links16": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links17": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links18": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links19": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links20": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links21": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links22": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links23": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links24": {
+    "url": "https://www.euronews.com/programs/brussels-bureau",
+    "Status": "200"
+  },
+  "Links25": {
+    "url": "https://www.euronews.com/programs/smart-regions",
+    "Status": "200"
+  },
+  "Links26": {
+    "url": "https://www.euronews.com/programs/state-of-the-union",
+    "Status": "200"
+  },
+  "Links27": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links28": {
+    "url": "https://www.euronews.com/programs/aid-zone",
+    "Status": "200"
+  },
+  "Links29": {
+    "url": "https://www.euronews.com/programs/global-japan",
+    "Status": "200"
+  },
+  "Links30": {
+    "url": "https://www.euronews.com/programs/globalconversation",
+    "Status": "200"
+  },
+  "Links31": {
+    "url": "https://www.euronews.com/programs/good-morning-europe",
+    "Status": "200"
+  },
+  "Links32": {
+    "url": "https://www.euronews.com/programs/insiders",
+    "Status": "200"
+  },
+  "Links33": {
+    "url": "https://www.euronews.com/programs/insight",
+    "Status": "200"
+  },
+  "Links34": {
+    "url": "https://www.euronews.com/programs/inspire-middle-east",
+    "Status": "200"
+  },
+  "Links35": {
+    "url": "https://www.euronews.com/programs/raw-politics",
+    "Status": "200"
+  },
+  "Links36": {
+    "url": "https://www.euronews.com/programs/view",
+    "Status": "200"
+  },
+  "Links37": {
+    "url": "https://www.euronews.com/programs/world",
+    "Status": "200"
+  },
+  "Links38": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links39": {
+    "url": "https://www.euronews.com/programs/business-planet",
+    "Status": "200"
+  },
+  "Links40": {
+    "url": "https://www.euronews.com/programs/realeconomy",
+    "Status": "200"
+  },
+  "Links41": {
+    "url": "https://www.euronews.com/programs/target",
+    "Status": "200"
+  },
+  "Links42": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links43": {
+    "url": "https://www.euronews.com/programs/adventures",
+    "Status": "200"
+  },
+  "Links44": {
+    "url": "https://www.euronews.com/programs/cinema",
+    "Status": "200"
+  },
+  "Links45": {
+    "url": "https://www.euronews.com/programs/cult",
+    "Status": "200"
+  },
+  "Links46": {
+    "url": "https://www.euronews.com/programs/europeanlens",
+    "Status": "200"
+  },
+  "Links47": {
+    "url": "https://www.euronews.com/programs/musica",
+    "Status": "200"
+  },
+  "Links48": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links49": {
+    "url": "https://www.euronews.com/programs/farnborough-airshow",
+    "Status": "200"
+  },
+  "Links50": {
+    "url": "https://www.euronews.com/programs/futuris",
+    "Status": "200"
+  },
+  "Links51": {
+    "url": "https://www.euronews.com/programs/sci-tech",
+    "Status": "200"
+  },
+  "Links52": {
+    "url": "https://www.euronews.com/programs/space",
+    "Status": "200"
+  },
+  "Links53": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links54": {
+    "url": "https://www.euronews.com/programs/focus",
+    "Status": "200"
+  },
+  "Links55": {
+    "url": "https://www.euronews.com/programs/metropolitans",
+    "Status": "200"
+  },
+  "Links56": {
+    "url": "https://www.euronews.com/programs/postcards",
+    "Status": "200"
+  },
+  "Links57": {
+    "url": "https://www.euronews.com/programs/taste",
+    "Status": "200"
+  },
+  "Links58": {
+    "url": "https://www.euronews.com/programs/wander",
+    "Status": "200"
+  },
+  "Links59": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links60": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links61": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links62": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links63": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links64": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links65": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links66": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links67": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links68": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links69": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links70": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links71": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links72": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links73": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links74": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links75": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links76": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links77": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links78": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links79": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links80": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links81": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links82": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links83": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links84": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links85": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links86": {
+    "url": "https://www.euronews.com/live",
+    "Status": "200"
+  },
+  "Links87": {
+    "url": "https://www.euronews.com/just-in",
+    "Status": "200"
+  },
+  "Links88": {
+    "url": "https://www.euronews.com/follow-us",
+    "Status": "200"
+  },
+  "Links89": {
+    "url": "https://flights.euronews.com/en-GB/flights",
+    "Status": "200"
+  },
+  "Links90": {
+    "url": "https://www.euronews.com/",
+    "Status": "200"
+  },
+  "Links91": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links92": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links93": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links94": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links95": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links96": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links97": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links98": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links99": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links100": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links101": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links102": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links103": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links104": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links105": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links106": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links107": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links108": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links109": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links110": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links111": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links112": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links113": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links114": {
+    "url": "https://www.euronews.com/programs/brussels-bureau",
+    "Status": "200"
+  },
+  "Links115": {
+    "url": "https://www.euronews.com/programs/smart-regions",
+    "Status": "200"
+  },
+  "Links116": {
+    "url": "https://www.euronews.com/programs/state-of-the-union",
+    "Status": "200"
+  },
+  "Links117": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links118": {
+    "url": "https://www.euronews.com/programs/aid-zone",
+    "Status": "200"
+  },
+  "Links119": {
+    "url": "https://www.euronews.com/programs/global-japan",
+    "Status": "200"
+  },
+  "Links120": {
+    "url": "https://www.euronews.com/programs/globalconversation",
+    "Status": "200"
+  },
+  "Links121": {
+    "url": "https://www.euronews.com/programs/good-morning-europe",
+    "Status": "200"
+  },
+  "Links122": {
+    "url": "https://www.euronews.com/programs/insiders",
+    "Status": "200"
+  },
+  "Links123": {
+    "url": "https://www.euronews.com/programs/insight",
+    "Status": "200"
+  },
+  "Links124": {
+    "url": "https://www.euronews.com/programs/inspire-middle-east",
+    "Status": "200"
+  },
+  "Links125": {
+    "url": "https://www.euronews.com/programs/raw-politics",
+    "Status": "200"
+  },
+  "Links126": {
+    "url": "https://www.euronews.com/programs/view",
+    "Status": "200"
+  },
+  "Links127": {
+    "url": "https://www.euronews.com/programs/world",
+    "Status": "200"
+  },
+  "Links128": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links129": {
+    "url": "https://www.euronews.com/programs/business-planet",
+    "Status": "200"
+  },
+  "Links130": {
+    "url": "https://www.euronews.com/programs/realeconomy",
+    "Status": "200"
+  },
+  "Links131": {
+    "url": "https://www.euronews.com/programs/target",
+    "Status": "200"
+  },
+  "Links132": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links133": {
+    "url": "https://www.euronews.com/programs/adventures",
+    "Status": "200"
+  },
+  "Links134": {
+    "url": "https://www.euronews.com/programs/cinema",
+    "Status": "200"
+  },
+  "Links135": {
+    "url": "https://www.euronews.com/programs/cult",
+    "Status": "200"
+  },
+  "Links136": {
+    "url": "https://www.euronews.com/programs/europeanlens",
+    "Status": "200"
+  },
+  "Links137": {
+    "url": "https://www.euronews.com/programs/musica",
+    "Status": "200"
+  },
+  "Links138": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links139": {
+    "url": "https://www.euronews.com/programs/farnborough-airshow",
+    "Status": "200"
+  },
+  "Links140": {
+    "url": "https://www.euronews.com/programs/futuris",
+    "Status": "200"
+  },
+  "Links141": {
+    "url": "https://www.euronews.com/programs/sci-tech",
+    "Status": "200"
+  },
+  "Links142": {
+    "url": "https://www.euronews.com/programs/space",
+    "Status": "200"
+  },
+  "Links143": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links144": {
+    "url": "https://www.euronews.com/programs/focus",
+    "Status": "200"
+  },
+  "Links145": {
+    "url": "https://www.euronews.com/programs/metropolitans",
+    "Status": "200"
+  },
+  "Links146": {
+    "url": "https://www.euronews.com/programs/postcards",
+    "Status": "200"
+  },
+  "Links147": {
+    "url": "https://www.euronews.com/programs/taste",
+    "Status": "200"
+  },
+  "Links148": {
+    "url": "https://www.euronews.com/programs/wander",
+    "Status": "200"
+  },
+  "Links149": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links150": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links151": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links152": {
+    "url": "https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view",
+    "Status": "200"
+  },
+  "Links153": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links154": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links155": {
+    "url": "https://www.euronews.com/2018/09/24/what-if-view",
+    "Status": "200"
+  },
+  "Links156": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links157": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links158": {
+    "url": "https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack",
+    "Status": "200"
+  },
+  "Links159": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links160": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links161": {
+    "url": "https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill",
+    "Status": "200"
+  },
+  "Links162": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links163": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links164": {
+    "url": "https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view",
+    "Status": "200"
+  },
+  "Links165": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links166": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links167": {
+    "url": "https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view",
+    "Status": "200"
+  },
+  "Links168": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links169": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links170": {
+    "url": "https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796",
+    "Status": "200"
+  },
+  "Links171": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links172": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links173": {
+    "url": "https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view",
+    "Status": "200"
+  },
+  "Links174": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links175": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links176": {
+    "url": "https://www.euronews.com/live",
+    "Status": "200"
+  },
+  "Links177": {
+    "url": "https://www.euronews.com/just-in",
+    "Status": "200"
+  },
+  "Links178": {
+    "url": "https://www.euronews.com/about",
+    "Status": "200"
+  },
+  "Links179": {
+    "url": "https://www.euronews.com/tag/news",
+    "Status": "200"
+  },
+  "Links180": {
+    "url": "https://www.euronews.com/tag/raw-politics",
+    "Status": "200"
+  },
+  "Links181": {
+    "url": "https://www.euronews.com/tag/world-news",
+    "Status": "200"
+  },
+  "Links182": {
+    "url": "https://www.euronews.com/tag/usa",
+    "Status": "200"
+  },
+  "Links183": {
+    "url": "https://www.euronews.com/tag/20-seconds",
+    "Status": "200"
+  },
+  "Links184": {
+    "url": "https://www.euronews.com/tag/no-comment",
+    "Status": "200"
+  },
+  "Links185": {
+    "url": "https://www.euronews.com/tag/drones",
+    "Status": "200"
+  },
+  "Links186": {
+    "url": "https://www.euronews.com/tag/united-kingdom",
+    "Status": "200"
+  },
+  "Links187": {
+    "url": "https://www.euronews.com/news",
+    "Status": "200"
+  },
+  "Links188": {
+    "url": "https://www.euronews.com/lifestyle",
+    "Status": "200"
+  },
+  "Links189": {
+    "url": "https://www.euronews.com/knowledge",
+    "Status": "200"
+  },
+  "Links190": {
+    "url": "https://www.euronews.com/european-affairs",
+    "Status": "200"
+  },
+  "Links191": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links192": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links193": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links194": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links195": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links196": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links197": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links198": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links199": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links200": {
+    "url": "https://www.euronews.com/live",
+    "Status": "200"
+  },
+  "Links201": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links202": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links203": {
+    "url": "https://www.euronews.com/just-in",
+    "Status": "200"
+  },
+  "Links204": {
+    "url": "https://www.euronews.com/follow-us",
+    "Status": "200"
+  },
+  "Links205": {
+    "url": "https://www.euronews.com/widgets",
+    "Status": "200"
+  },
+  "Links206": {
+    "url": "https://flights.euronews.com/en-GB/flights",
+    "Status": "200"
+  },
+  "Links207": {
+    "url": "https://www.euronews.com/about",
+    "Status": "200"
+  },
+  "Links208": {
+    "url": "https://www.euronews.com/services-ue",
+    "Status": "200"
+  },
+  "Links209": {
+    "url": "https://www.euronews.com/terms-and-conditions",
+    "Status": "200"
+  },
+  "Links210": {
+    "url": "https://www.euronews.com/cookie-policy",
+    "Status": "200"
+  },
+  "Links211": {
+    "url": "https://www.euronews.com/contact",
+    "Status": "200"
+  },
+  "Links212": {
+    "url": "https://www.euronews.com/euronews-event",
+    "Status": "200"
+  },
+  "Links213": {
+    "url": "https://www.euronews.com/distribution",
+    "Status": "200"
+  },
+  "Links214": {
+    "url": "https://www.euronews.com/advertising",
+    "Status": "200"
+  },
+  "Links215": {
+    "url": "https://www.euronews.com/jobs",
+    "Status": "200"
+  },
+  "Links216": {
+    "url": "https://www.euronews.com/european-affairs/european-news",
+    "Status": "200"
+  },
+  "Links217": {
+    "url": "https://www.euronews.com/news/international",
+    "Status": "200"
+  },
+  "Links218": {
+    "url": "https://www.euronews.com/news/business",
+    "Status": "200"
+  },
+  "Links219": {
+    "url": "https://www.euronews.com/news/sport",
+    "Status": "200"
+  },
+  "Links220": {
+    "url": "https://www.euronews.com/lifestyle/culture",
+    "Status": "200"
+  },
+  "Links221": {
+    "url": "https://www.euronews.com/knowledge/sci-tech",
+    "Status": "200"
+  },
+  "Links222": {
+    "url": "https://www.euronews.com/lifestyle/travel",
+    "Status": "200"
+  },
+  "Links223": {
+    "url": "https://www.euronews.com/video",
+    "Status": "200"
+  },
+  "Links224": {
+    "url": "https://www.euronews.com/programs",
+    "Status": "200"
+  },
+  "Links225": {
+    "url": "https://www.euronews.com/weather",
+    "Status": "200"
+  },
+  "Links226": {
+    "url": "https://www.euronews.com/bulletin",
+    "Status": "200"
+  },
+  "Links227": {
+    "url": "https://www.euronews.com/widgets",
+    "Status": "200"
+  },
+  "Links228": {
+    "url": "https://flights.euronews.com/en-GB/flights",
+    "Status": "200"
+  },
+  "Links229": {
+    "url": "https://www.euronews.com/cookie-policy",
+    "Status": "200"
+  },
+  
+
+},

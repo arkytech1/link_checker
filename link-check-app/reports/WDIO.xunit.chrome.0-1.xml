@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Broken_Links_PAGE_ABOUT" timestamp="2018-09-25T11:58:10" time="27.405" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="1513782fb3c76acb07ba4fb7d8b0d8dc"/>
+      <property name="suiteName" value="Broken Links : PAGE &quot;ABOUT&quot;"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./test/test.js"/>
+    </properties>
+    <testcase classname="chrome.Broken_Links_PAGE_ABOUT" name="should_check_the_page_for_broken_links" time="27.386">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/url - {"url":"http://www.euronews.com/about"}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":{}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/elements - {"using":"css selector","value":"a[href^='/']"}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":[{"ELEMENT":":wdc:1537869494876"},{"ELEMENT":":wdc:1537869494877"},{"ELEMENT":":wdc:1537869494878"},{"ELEMENT":":wdc:1537869494879"},{"ELEMENT":":wdc:1537869494880"},{"ELEMENT":":wdc:1537869494881"},{"ELEMENT":":wdc:1537869494882"},{"ELEMENT":":wdc:1537869494883"},{"ELEMENT":":wdc:1537869494884"},{"ELEMENT":":wdc:1537869494885"},"(245 more items)"]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494876/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494877/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494878/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494879/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494880/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494881/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494882/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494883/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494884/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494885/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494886/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494887/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494888/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494889/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494890/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494891/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494892/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494893/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494894/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494895/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494896/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494897/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494898/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494899/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494900/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/brussels-bureau"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494901/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/smart-regions"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494902/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/state-of-the-union"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494903/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494904/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/aid-zone"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494905/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/global-japan"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494906/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/globalconversation"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494907/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/good-morning-europe"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494908/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insiders"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494909/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insight"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494910/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/inspire-middle-east"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494911/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/raw-politics"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494912/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494913/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/world"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494914/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494915/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/business-planet"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494916/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/realeconomy"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494917/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/target"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494918/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494919/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/adventures"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494920/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cinema"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494921/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cult"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494922/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/europeanlens"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494923/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/musica"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494924/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494925/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/farnborough-airshow"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494926/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/futuris"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494927/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494928/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/space"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494929/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494930/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/focus"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494931/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/metropolitans"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494932/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/postcards"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494933/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/taste"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494934/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/wander"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494935/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494936/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494937/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494938/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494939/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494940/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494941/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494942/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494943/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494944/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494945/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494946/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494947/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494948/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494949/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494950/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494951/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494952/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494953/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494954/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494955/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494956/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494957/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494958/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494959/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494960/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494961/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494962/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494963/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494964/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494965/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494966/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494967/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494968/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/just-in"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494969/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/follow-us"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494970/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://flights.euronews.com/en-GB/flights"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494971/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494972/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494973/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494974/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494975/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494976/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494977/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494978/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494979/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494980/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494981/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494982/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494983/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494984/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494985/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494986/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494987/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494988/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494989/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494990/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494991/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494992/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494993/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494994/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494995/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/brussels-bureau"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494996/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/smart-regions"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494997/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/state-of-the-union"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494998/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869494999/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/aid-zone"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495000/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/global-japan"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495001/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/globalconversation"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495002/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/good-morning-europe"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495003/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insiders"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495004/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insight"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495005/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/inspire-middle-east"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495006/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/raw-politics"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495007/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495008/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/world"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495009/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495010/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/business-planet"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495011/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/realeconomy"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495012/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/target"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495013/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495014/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/adventures"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495015/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cinema"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495016/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cult"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495017/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/europeanlens"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495018/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/musica"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495019/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495020/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/farnborough-airshow"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495021/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/futuris"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495022/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495023/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/space"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495024/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495025/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/focus"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495026/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/metropolitans"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495027/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/postcards"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495028/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/taste"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495029/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/wander"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495030/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495031/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495032/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495033/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495034/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495035/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495036/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495037/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495038/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495039/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495040/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495041/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495042/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495043/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495044/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495045/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495046/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495047/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495048/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495049/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495050/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495051/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495052/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495053/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495054/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495055/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495056/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495057/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495058/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495059/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495060/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495061/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495062/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495063/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/just-in"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495064/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/widgets"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495065/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/distribution"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495066/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/jobs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495067/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/advertising"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495068/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495069/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/web-digital-stories"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495070/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495071/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/new-zealand-pm-brings-her-baby-to-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495072/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/oceania/new-zealand"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495073/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/new-zealand-pm-brings-her-baby-to-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495074/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/brexit-what-went-wrong-with-theresa-may-s-chequers-plan"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495075/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/europe/united-kingdom"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495076/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/brexit-what-went-wrong-with-theresa-may-s-chequers-plan"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495077/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/gluten-free-communion-bread-sparks-debate-among-churches-t137797"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495078/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/world"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495079/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/gluten-free-communion-bread-sparks-debate-among-churches-t137797"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495080/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495081/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/world-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495082/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/usa"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495083/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/raw-politics"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495084/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/european-union"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495085/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/poland"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495086/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/fashion"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495087/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/20-seconds"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495088/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495089/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495090/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495091/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495092/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495093/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495094/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495095/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495096/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495097/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495098/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495099/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495100/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495101/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495102/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495103/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495104/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/just-in"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495105/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/follow-us"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495106/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/widgets"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495107/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://flights.euronews.com/en-GB/flights"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495108/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/about"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495109/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/services-ue"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495110/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/terms-and-conditions"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495111/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/cookie-policy"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495112/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/contact"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495113/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/euronews-event"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495114/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/distribution"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495115/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/advertising"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495116/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/jobs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495117/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495118/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495119/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495120/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495121/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495122/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495123/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495124/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495125/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495126/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495127/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495128/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/widgets"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495129/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://flights.euronews.com/en-GB/flights"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869495130/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/cookie-policy"}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Broken_Links_PAGE_JOBS" timestamp="2018-09-25T11:58:37" time="30.859" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="1513782fb3c76acb07ba4fb7d8b0d8dc"/>
+      <property name="suiteName" value="Broken Links : PAGE &quot;JOBS&quot;"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value="./test/test.js"/>
+    </properties>
+    <testcase classname="chrome.Broken_Links_PAGE_JOBS" name="should_check_the_page_for_broken_links" time="30.851">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/url - {"url":"http://www.euronews.com/jobs"}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":{}}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/elements - {"using":"css selector","value":"a[href^='/']"}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":[{"ELEMENT":":wdc:1537869519707"},{"ELEMENT":":wdc:1537869519708"},{"ELEMENT":":wdc:1537869519709"},{"ELEMENT":":wdc:1537869519710"},{"ELEMENT":":wdc:1537869519711"},{"ELEMENT":":wdc:1537869519712"},{"ELEMENT":":wdc:1537869519713"},{"ELEMENT":":wdc:1537869519714"},{"ELEMENT":":wdc:1537869519715"},{"ELEMENT":":wdc:1537869519716"},"(230 more items)"]}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519707/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519708/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519709/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519710/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519711/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519712/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519713/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519714/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519715/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519716/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519717/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519718/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519719/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519720/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519721/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519722/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519723/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519724/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519725/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519726/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519727/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519728/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519729/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519730/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519731/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/brussels-bureau"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519732/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/smart-regions"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519733/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/state-of-the-union"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519734/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519735/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/aid-zone"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519736/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/global-japan"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519737/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/globalconversation"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519738/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/good-morning-europe"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519739/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insiders"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519740/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insight"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519741/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/inspire-middle-east"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519742/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/raw-politics"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519743/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519744/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/world"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519745/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519746/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/business-planet"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519747/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/realeconomy"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519748/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/target"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519749/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519750/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/adventures"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519751/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cinema"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519752/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cult"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519753/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/europeanlens"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519754/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/musica"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519755/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519756/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/farnborough-airshow"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519757/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/futuris"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519758/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519759/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/space"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519760/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519761/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/focus"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519762/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/metropolitans"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519763/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/postcards"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519764/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/taste"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519765/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/wander"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519766/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519767/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519768/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519769/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519770/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519771/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519772/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519773/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519774/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519775/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519776/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519777/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519778/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519779/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519780/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519781/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519782/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519783/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519784/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519785/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519786/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519787/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519788/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519789/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519790/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519791/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519792/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519793/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519794/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519795/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519796/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519797/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519798/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519799/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/just-in"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519800/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/follow-us"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519801/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://flights.euronews.com/en-GB/flights"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519802/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519803/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519804/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519805/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519806/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519807/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519808/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519809/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519810/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519811/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519812/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519813/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519814/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519815/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519816/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519817/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519818/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519819/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519820/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519821/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519822/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519823/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519824/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519825/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519826/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/brussels-bureau"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519827/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/smart-regions"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519828/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/state-of-the-union"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519829/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519830/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/aid-zone"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519831/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/global-japan"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519832/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/globalconversation"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519833/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/good-morning-europe"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519834/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insiders"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519835/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/insight"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519836/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/inspire-middle-east"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519837/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/raw-politics"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519838/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519839/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/world"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519840/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519841/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/business-planet"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519842/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/realeconomy"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519843/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/target"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519844/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519845/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/adventures"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519846/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cinema"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519847/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/cult"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519848/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/europeanlens"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519849/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/musica"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519850/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519851/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/farnborough-airshow"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519852/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/futuris"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519853/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519854/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/space"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519855/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519856/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/focus"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519857/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/metropolitans"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519858/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/postcards"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519859/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/taste"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519860/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs/wander"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519861/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519862/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519863/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519864/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/dads-aren-t-babysitters-they-re-parents-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519865/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519866/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519867/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/24/what-if-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519868/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519869/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519870/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/iran-vows-to-avenge-deadly-military-parade-attack"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519871/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519872/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519873/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/22/new-moscow-protests-against-russian-pension-reform-bill"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519874/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519875/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519876/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/19/global-compact-on-refugees-a-rich-countries-model-for-keeping-others-out-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519877/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519878/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519879/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/17/rule-of-law-in-poland-or-lack-thereof-7-questions-for-the-article-7-hearing-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519880/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519881/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519882/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/16/parents-put-down-your-cell-phones-your-kids-are-watching-ncna909796"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519883/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519884/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519885/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/13/the-us-isn-t-close-to-becoming-another-poland-or-hungary-yet-view"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519886/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519887/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519888/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519889/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/2018/09/25/live-updates-uk-labour-conference-germany-church-scandal-and-un-general-assembly"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519890/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519891/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519892/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519893/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519894/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/just-in"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519895/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/about"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519896/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519897/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/world-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519898/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/usa"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519899/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/raw-politics"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519900/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/european-union"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519901/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/poland"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519902/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/fashion"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519903/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/tag/20-seconds"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519904/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519905/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519906/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519907/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519908/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519909/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519910/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519911/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519912/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519913/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519914/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519915/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519916/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519917/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/live"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519918/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519919/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519920/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/just-in"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519921/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/follow-us"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519922/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/widgets"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519923/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://flights.euronews.com/en-GB/flights"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519924/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/about"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519925/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/services-ue"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519926/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/terms-and-conditions"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519927/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/cookie-policy"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519928/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/contact"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519929/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/euronews-event"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519930/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/distribution"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519931/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/advertising"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519932/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/jobs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519933/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/european-affairs/european-news"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519934/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/international"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519935/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/business"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519936/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/news/sport"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519937/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/culture"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519938/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/knowledge/sci-tech"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519939/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/lifestyle/travel"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519940/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/video"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519941/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/programs"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519942/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/weather"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519943/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/bulletin"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519944/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/widgets"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519945/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://flights.euronews.com/en-GB/flights"}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d/element/:wdc:1537869519946/attribute/href - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":"https://www.euronews.com/cookie-policy"}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/824adb30-c0a9-11e8-9618-7ddc9a80716d - {}
+RESULT: {"sessionId":"824adb30-c0a9-11e8-9618-7ddc9a80716d","status":0,"value":{}}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
